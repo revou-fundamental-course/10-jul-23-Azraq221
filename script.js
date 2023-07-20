@@ -37,15 +37,15 @@ function countBmi(){
       
   var result = '';
   if(bmi<18.5){
-    result = 'Underweight';
+    result = 'Underweight<br>oh yikes, you must be look like a skeleton right now, please consume more calories and protein to fill your body';
      }else if(18.5<=bmi&&bmi<=24.9){
-    result = 'Healthy';
+    result = 'Healthy<br>You are normal, there is nothing to worry about, keep up the good work';
      }else if(25<=bmi&&bmi<=29.9){
-    result = 'Overweight';
+    result = 'Overweight<br> You are overweight, this is not normal, but you can fix your condition with diet and excercise regulary';
      }else if(30<=bmi&&bmi<=34.9){
-    result = 'Obese';
+    result = 'Obese<br>You are too fat, this definetely not healthy, please take a serious action by decreasing your ruitine lunch and do intense excercise regulary as soon as possible';
      }else if(35<=bmi){
-    result = 'Extremely obese';
+    result = 'Extremely obese<br>there is nothing we can help, please go check it to your nearby hospital';
      }
 
 
